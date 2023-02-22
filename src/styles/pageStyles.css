@@ -1,0 +1,19 @@
+/* Global */
+h2 {
+    padding: 32px;
+}
+
+
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Player */
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
