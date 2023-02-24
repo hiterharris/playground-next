@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -10,7 +11,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="home">
-        <h2>Next Playground</h2>
+        <h1>Next Playground</h1>
+        <nav>
+          <Link href="/store">
+            <h4>Store</h4>
+          </Link>
+        </nav>
       </main>
     </>
   )

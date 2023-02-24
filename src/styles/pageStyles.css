@@ -10,15 +10,27 @@ body {
 /* Home */
 .home {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-  }
+    width: 100vw;
+}
 
+nav {
+    padding: 16px 64px;
+}
 
-/* Stripe */
-.stripe h2 {
+/* store */
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.store h2 {
     padding-bottom: 8px;
 }
+
 .products-container {
     display: flex;
     align-items: center;
@@ -26,7 +38,8 @@ body {
 }
 
 .product-card {
-    border: 1px solid grey;
+    border: 1px solid lightgray;
+    border-radius: 8px;
     padding: 16px 64px;
     margin: 32px;
     display: flex;
@@ -50,5 +63,43 @@ body {
     background-color: #0071e3;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 8px;
+}
+
+
+/* payment */
+.payment {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+.payment-form {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.payment-form-label {
+    margin: 16px 0;
+}
+
+.pay-button {
+    padding: 8px 32px;
+    background-color: #31DEB2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.back-button {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    height: 40px;
+    width: 40px;
 }
