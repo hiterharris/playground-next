@@ -1,6 +1,9 @@
 /* Global */
-h2 {
-    padding: 32px;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -11,9 +14,41 @@ h2 {
     align-items: center;
   }
 
-/* Player */
-.player {
+
+/* Stripe */
+.stripe h2 {
+    padding-bottom: 8px;
+}
+.products-container {
+    display: flex;
+    align-items: center;
+    justify-content: space;
+}
+
+.product-card {
+    border: 1px solid grey;
+    padding: 16px 64px;
+    margin: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-image {
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 5px 5px lightgray;
+}
+
+.product-price {
+    padding: 16px;
+}
+
+.product-buy-button {
+    padding: 8px 32px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    border-radius: 20px;
 }
