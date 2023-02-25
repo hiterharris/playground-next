@@ -6,7 +6,7 @@ const Store = () => {
     const { checkout } = useStripe();
     return (
         <main className="store">
-            <h1>Products</h1>
+            <h2>Products</h2>
             <div className="products-container">
                 {products.map(product => {
                     return (

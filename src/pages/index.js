@@ -12,11 +12,16 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="home">
-        <h1>Next Playground</h1>
         <nav>
-          <Link href="/store" className="button">
-            <h4>Store</h4>
-          </Link>
+        <h1>Next Playground</h1>
+          <div className="nav-menu">
+            <Link href="/store" className="nav-menu-item">
+              <h4>Store</h4>
+            </Link>
+            <Link href="/reactQuery">
+              <h4>React Query</h4>
+            </Link>
+          </div>
         </nav>
       </main>
     </>

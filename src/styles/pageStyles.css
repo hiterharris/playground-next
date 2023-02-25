@@ -6,6 +6,22 @@ body {
     justify-content: center;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-item {
+    margin-right: 32px;
+}
 
 /* Home */
 .home {
@@ -13,10 +29,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-}
-
-nav {
-    padding: 16px 64px;
 }
 
 /* store */
