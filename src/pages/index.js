@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from "next/link";
+import { useEffect } from 'react';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <main className="home">
         <h1>Next Playground</h1>
         <nav>
-          <Link href="/store">
+          <Link href="/store" className="button">
             <h4>Store</h4>
           </Link>
         </nav>

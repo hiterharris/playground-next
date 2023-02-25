@@ -1,4 +1,4 @@
-import PaymentForm from "../components/PaymentForm";
+import PaymentForm from "@/components/PaymentForm";
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 

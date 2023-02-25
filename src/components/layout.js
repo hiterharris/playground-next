@@ -1,4 +1,4 @@
-import BackButton from "./BackButton";
+import BackButton from "@/components/BackButton";
 import { useRouter } from 'next/router';
 
 const Layout = ({ children }) => {
@@ -12,4 +12,4 @@ const Layout = ({ children }) => {
     )
   }
 
-export default Layout;
+  export default Layout;

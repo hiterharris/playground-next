@@ -66,7 +66,7 @@ const PaymentForm = () => {
             }}
             />
         </label>
-        <button className="pay-button" type="submit" disabled={!stripe}>
+        <button className="pay-button button" type="submit" disabled={!stripe}>
             Pay
         </button>
         </form>
