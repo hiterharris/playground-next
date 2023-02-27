@@ -18,8 +18,11 @@ const Home = () => {
             <Link href="/store" className="nav-menu-item">
               <h4>Store</h4>
             </Link>
-            <Link href="/reactQuery">
+            <Link href="/reactQuery" className="nav-menu-item">
               <h4>React Query</h4>
+            </Link>
+            <Link href="/video" className="nav-menu-item">
+              <h4>Video Player</h4>
             </Link>
           </div>
         </nav>

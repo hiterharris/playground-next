@@ -20,7 +20,7 @@ nav {
 }
 
 .nav-menu-item {
-    margin-right: 32px;
+    margin-left: 32px;
 }
 
 /* Home */
@@ -114,4 +114,30 @@ nav {
     left: 16px;
     height: 40px;
     width: 40px;
+}
+
+
+/* video modal */
+
+
+.modal-open {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-video-button {
+    width: 100px;
+}
+
+.video-modal {
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    margin: 0 10%;
+    border: 1px solid black;
 }
