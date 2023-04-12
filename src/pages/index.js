@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from "next/link";
-import { useEffect } from 'react';
 
 const Home = () => {
   return (
@@ -23,6 +22,9 @@ const Home = () => {
             </Link>
             <Link href="/video" className="nav-menu-item">
               <h4>Video Player</h4>
+            </Link>
+            <Link href="/portal" className="nav-menu-item">
+              <h4>React Portal</h4>
             </Link>
           </div>
         </nav>
